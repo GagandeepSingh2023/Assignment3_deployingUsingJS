@@ -7,4 +7,4 @@ function replaceContent(){
     document.getElementById("contact-page").style.fontSize = '24px';
     document.getElementById("contact-page").style.justifyContent = 'flex-start';
 }
-submitButton.addEventListener("click",replaceContent)
+submitButton.addEventListener("click",replaceContent);
