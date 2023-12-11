@@ -59,7 +59,7 @@ function removeClicked()
     daysSelected = 0;
     recalculate();
 }
-clear.addEventListener("click",removeClicked)
+clear.addEventListener("click",removeClicked);
 
 
 
@@ -74,7 +74,7 @@ function changeRate(){
     fullDay.classList.remove('clicked');
     recalculate();
 }
-halfDay.addEventListener("click",changeRate)
+halfDay.addEventListener("click",changeRate);
 
 
 // when the full-day button is clicked, the daily rate is set back to $35, the clicked class is added to "full" and removed from "half", and the total cost is recalculated.
@@ -85,7 +85,7 @@ function changeFull(){
     halfDay.classList.remove('clicked');
     recalculate();
 }
-fullDay.addEventListener('click',changeFull)
+fullDay.addEventListener('click',changeFull);
 
 
 
