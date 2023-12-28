@@ -15,7 +15,7 @@ var halfDay = document.getElementById("half");
 var totalCost = 0;
 
 var daysSelected = 0;
-var dailyRate = 35;
+var dailyRate = 0;
 
 
 
