@@ -28,7 +28,6 @@ function colorChange()
     {
         this.classList.add('clicked');
         daysSelected += 1;
-        dailyRate = 0;
         
         recalculate();
     }
