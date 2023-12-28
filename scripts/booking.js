@@ -34,11 +34,11 @@ function colorChange()
     }
 }
 
-mon.addEventListener('click', colorChange);
-tues.addEventListener('click', colorChange);
-wed.addEventListener('click', colorChange);
-thur.addEventListener('click', colorChange);
-fri.addEventListener('click', colorChange);
+mon.addEventListener('click',colorChange);
+tues.addEventListener('click',colorChange);
+wed.addEventListener('click',colorChange);
+thur.addEventListener('click',colorChange);
+fri.addEventListener('click',colorChange);
 
 
 
@@ -54,8 +54,8 @@ function removeClicked()
     wed.classList.remove("clicked");
     thur.classList.remove("clicked");
     fri.classList.remove("clicked");
-
     totalCost = 0;
+    dailyRate = 0;
     daysSelected = 0;
     recalculate();
 }
