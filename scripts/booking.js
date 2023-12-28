@@ -54,6 +54,8 @@ function removeClicked()
     wed.classList.remove("clicked");
     thur.classList.remove("clicked");
     fri.classList.remove("clicked");
+    fullDay.classList.remove("clicked");
+    halfDay.classList.remove("clicked");
     totalCost = 0;
     dailyRate = 0;
     daysSelected = 0;
